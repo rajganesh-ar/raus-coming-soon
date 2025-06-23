@@ -5,7 +5,7 @@ function App() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    const targetDate = new Date("2025-06-01T00:00:00"); // Set your launch date here
+    const targetDate = new Date("2025-07-05T00:00:00"); // Set your launch date here
 
     const interval = setInterval(() => {
       const now = new Date();
